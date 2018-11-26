@@ -1,3 +1,21 @@
+NOTICE
+=====================
+This is a Fork of the project found here: https://github.com/bernardopires/django-tenant-schemas
+
+The master branch of this fork includes our proposed Merge Requests so that we can continue working with django-tenant-schemas while the original maintainer on accepting these proposed changes.
+
+The updates include:
+
+* Supporting non-auto-incrementing ids (e.g. UUIDs) for tenant models
+* Supporting multiple tenant-aware database connections
+* Supporting the UserModel residing in the public schema, rather than the tenant schema
+
+If these updates are valuable to you, feel free to use this fork
+
+    pip install git+git://github.com/techsafari/django-tenant-schemas.git#egg=django-tenant-schemas
+    
+Otherwise, it's better to pull directly from pip
+
 django-tenant-schemas
 =====================
 
